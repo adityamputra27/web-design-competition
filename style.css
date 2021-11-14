@@ -126,7 +126,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .min-vh-100 {
-        min-height: 80vh !important;
+        min-height: 100vh !important;
     }
     #booking {
         margin-top: -65px;
