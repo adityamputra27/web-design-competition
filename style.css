@@ -14,8 +14,8 @@ body {
     /* background-color: #563AD6; */
 }
 
-.min-vh-120 {
-    min-height: 120vh;
+.min-vh-100 {
+    min-height: 120vh !important;
 }
 
 .btn-sign-up {
@@ -127,9 +127,6 @@ body {
 @media only screen and (max-width: 768px) {
     #booking {
         margin-top: -65px;
-    }
-    .min-vh-120 {
-        min-height: 150vh !important;
     }
     .navbar-nav .nav-item {
         margin-left: 0 !important;
