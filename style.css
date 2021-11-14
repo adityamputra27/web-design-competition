@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-background {
+    background: linear-gradient(180deg, rgba(86, 58, 214, 0.85) 0%, #563AD6 100%);
+    /* background-color: #563AD6; */
+}
+
+.min-vh-120 {
+    min-height: 120vh;
+}
+
+.btn-sign-up {
+    background-color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    color: #161032;
+    transition: all .3s ease-out;
+}
+
+.btn-sign-up:hover {
+    background-color: #fff;
+    color: #161032;
+    box-shadow: 0px 6px 6px rgba(77, 77, 77, 0.15);
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('images/navbar-toggler.svg') !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: white !important;
+}
+
+#hero h1 {
+    font-weight: 500;
+    color: #fff;
+    line-height: 55px;    
+}
+
+#hero p {
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 2.5em;
+}
+
+#hero .hero__information {
+    background: #4A2CD0;
+    padding: 17px 20px;
+    border-radius: 30px;
+}
+
+#hero .hero__information img {
+    vertical-align: middle;
+}
+
+#hero .hero__information span {
+    font-weight: 500;
+    color: #ffff;
+    font-size: 14px;
+}
+
+#booking {
+    margin-top: -120px;
+}
+
+#booking .card__get-services {
+    border: 0;
+    background: #fff;
+    box-shadow: 0px 3px 16px 14px rgba(107, 107, 107, 0.05);
+    border-radius: 20px;
+}
+
+#booking h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #161032;
+}
+
+#booking .form__get-services {
+    height: 45px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    box-sizing: border-box;
+    border: 0.5px solid #D2D2D2;
+    border-radius: 10px;
+}
+
+#booking .btn__booking-now {
+    background-color: #4A2CD0;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    border: 0;
+    color: #fff;
+    transition: all .3s ease-out;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #booking {
+        margin-top: -65px;
+    }
+    .min-vh-120 {
+        min-height: 150vh !important;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0 !important;
+        margin-top: 1.4em;
+    }
+    .btn-sign-up {
+        margin-top: 1.4em;
+        margin-left: 0 !important;
+    }
+}
