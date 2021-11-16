@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
+    height: 100em;
 }
 
 .main-background {
@@ -92,7 +93,7 @@ body {
 #booking .card__get-services {
     border: 0;
     background: #fff;
-    box-shadow: 0px 6px 16px 14px rgba(107, 107, 107, 0.05);
+    box-shadow: 0px 8px 18px 14px rgba(90, 90, 90, 0.06);
     border-radius: 20px;
 }
 
@@ -113,7 +114,7 @@ body {
 }
 
 #booking .btn__booking-now {
-    background-color: #4A2CD0;
+    background: linear-gradient(180deg, rgba(74, 44, 208, 0.7) 0%, #4A2CD0 68.75%);
     font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -125,10 +126,10 @@ body {
 }
 
 #booking .btn__booking-now:hover {
-    box-shadow: 0px 6px 6px rgba(77, 77, 77, 0.15);
+    box-shadow: 0px 8px 18px 14px rgba(90, 90, 90, 0.06);
 }
 
-#services p {
+#services .services__title {
     font-weight: 500;
     font-size: 12px;
     color: #161032;
@@ -139,6 +140,41 @@ body {
     font-weight: 500;
     font-size: 40px;
     color: #161032;
+}
+
+#services h1 span {
+    color: #4A2CD0;
+}
+
+#services .services__information {
+    font-size: 13px;
+    line-height: 22px;
+    color: #C4C4C4;
+}
+
+#services .card__services {
+    background: linear-gradient(180deg, rgba(74, 44, 208, 0.7) 0%, #4A2CD0 68.75%);
+    border-radius: 20px;
+    border: 0;
+    /* min-height: 350px; */
+    box-shadow: 0px 8px 18px 14px rgba(90, 90, 90, 0.06);
+}
+
+#services .card__services-title h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+} 
+
+#services .card__services-description {
+    padding-top: 2.5em;
+}
+
+#services .card__services-description p {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 @media only screen and (max-width: 768px) {
