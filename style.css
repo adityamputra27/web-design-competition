@@ -146,10 +146,15 @@ body {
     color: #4A2CD0;
 }
 
-#services .services__information {
-    font-size: 13px;
+#services .services__information p {
+    font-size: 14px;
     line-height: 22px;
     color: #C4C4C4;
+    line-height: 1.5;
+}
+
+#services .services__information p:nth-child(2) {
+    line-height: 0;
 }
 
 #services .card__services {
