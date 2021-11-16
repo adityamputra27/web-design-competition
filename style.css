@@ -114,7 +114,7 @@ body {
 }
 
 #booking .btn__booking-now {
-    background: linear-gradient(180deg, rgba(74, 44, 208, 0.7) 0%, #4A2CD0 68.75%);
+    background: linear-gradient(180deg, rgba(74, 44, 208, 0.75) 0%, #4A2CD0 68.75%);
     font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
