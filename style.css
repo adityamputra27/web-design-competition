@@ -283,6 +283,10 @@ body {
     margin-bottom: 4px;
 }
 
+#packages .card__packages-features .fa-times-circle {
+    color: #D7D8DB;
+}
+
 #packages .card__basic .card__packages-title p,
 #packages .card__ultimate .card__packages-title p {
     font-size: 14px;
