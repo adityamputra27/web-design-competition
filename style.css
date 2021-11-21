@@ -177,6 +177,145 @@ body {
     color: #FFFFFF;
 }
 
+#packages .packages__title {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#packages h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
+
+#packages h1 span {
+    color: #2B33A4;
+}
+
+#packages .packages__information p {
+    font-size: 14px;
+    color: #C4C4C4;
+    line-height: 26px;
+}
+
+#packages .card__packages {
+    box-shadow: 0px 8px 30px 10px rgba(199, 199, 199, 0.12);
+    border-radius: 20px;
+    border: 0;
+}
+
+#packages .card__packages .card__packages-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#packages .card__basic .card__packages-price,
+#packages .card__ultimate .card__packages-price {
+    background: #EFF4FB;
+    border-radius: 10px;
+}
+
+#packages .card__basic .card__packages-price h4,
+#packages .card__ultimate .card__packages-price h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 4px;
+}
+
+#packages .card__basic .card__packages-price p,
+#packages .card__ultimate .card__packages-price p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #606775;
+}
+
+#packages .card__professional .card__packages-price {
+    background: #868CDF;
+    border-radius: 10px;
+}
+
+#packages .card__professional {
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 71.87%);
+}
+
+#packages .card__professional .card__packages-title {
+    color: #FFFFFF;
+}
+
+#packages .card__professional .card__packages-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#packages .card__professional .card__packages-title p {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+#packages .card__professional .card__packages-price h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 4px;
+}
+
+#packages .card__professional .card__packages-price p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#packages .card__professional .card__packages-line {
+    width: 100%;
+    height: 1px;
+    background-color: #868CDF;
+}
+
+#packages .card__packages-features ul {
+    list-style: none;
+}
+
+#packages .card__packages-features li {
+    margin-bottom: 4px;
+}
+
+#packages .card__basic .card__packages-title p,
+#packages .card__ultimate .card__packages-title p {
+    font-size: 14px;
+    color: #606775;
+    line-height: 20px;
+}
+
+#packages .card__basic .btn__packages-started,
+#packages .card__ultimate .btn__packages-started {
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.65) 0%, #323AAF 72.92%);
+    border-radius: 10px;
+    padding: 0.8rem 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#packages .card__basic .card__packages-line,
+#packages .card__ultimate .card__packages-line {
+    width: 100%;
+    height: 1px;
+    background-color: #E3E3E3;
+}
+
+#packages .card__professional .btn__packages-started {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0.8rem 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #323AAF;
+}
+
 @media only screen and (max-width: 768px) {
     .min-vh-100 {
         min-height: 100vh !important;
