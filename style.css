@@ -298,6 +298,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     color: #FFFFFF;
+    border: none;
 }
 
 #packages .card__basic .card__packages-line,
@@ -314,6 +315,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     color: #323AAF;
+    border: none;
 }
 
 @media only screen and (max-width: 768px) {
