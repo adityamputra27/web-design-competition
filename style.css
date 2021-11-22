@@ -394,7 +394,7 @@ body {
 #testimonials .card__testimonials-bottom {
     width: 85%;
     margin: -8em auto 0 auto !important;
-    padding: 2em 2.5em 1em 2.5em;
+    padding: 2em 2.2em 1em 2.2em;
 }
 
 #testimonials .card__testimonials-description {
@@ -440,10 +440,10 @@ body {
         padding-right: 4px !important;
     }
     #testimonials .card__testimonials .card__testimonials-top .card__testimonials-author h3 {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 10px;
     }
     #testimonials .card__testimonials .card__testimonials-top .card__testimonials-author p {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
