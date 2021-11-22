@@ -432,6 +432,10 @@ body {
         margin-top: 1.4em;
         margin-left: 0 !important;
     }
+    #testimonials .card__testimonials {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     #testimonials .card__testimonials-bottom {
         max-width: 350px;
     }
