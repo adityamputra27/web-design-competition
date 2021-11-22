@@ -275,6 +275,10 @@ body {
     background-color: #868CDF;
 }
 
+#packages .card__packages-features {
+    margin-top: 2em;
+}
+
 #packages .card__packages-features ul {
     list-style: none;
 }
