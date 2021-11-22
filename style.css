@@ -32,7 +32,7 @@ body {
 .btn-sign-up:hover {
     background-color: #fff;
     color: #000000;
-    box-shadow: 0px 6px 6px rgba(77, 77, 77, 0.15);
+    box-shadow: 0px 8px 30px 10px rgba(199, 199, 199, 0.12);
 }
 
 .navbar-light .navbar-toggler {
@@ -127,7 +127,7 @@ body {
 }
 
 #booking .btn__booking-now:hover {
-    box-shadow: 0px 8px 18px 14px rgba(90, 90, 90, 0.06);
+    box-shadow: 0px 11px 35px rgba(66, 66, 66, 0.25);
 }
 
 #services .services__title {
@@ -279,10 +279,6 @@ body {
     list-style: none;
 }
 
-#packages .card__packages-features li {
-    margin-bottom: 4px;
-}
-
 #packages .card__packages-features .fa-times-circle {
     color: #D7D8DB;
 }
@@ -303,6 +299,7 @@ body {
     font-weight: 500;
     color: #FFFFFF;
     border: none;
+    transition: box-shadow .3s ease-out;
 }
 
 #packages .card__basic .card__packages-line,
@@ -320,6 +317,11 @@ body {
     font-weight: 500;
     color: #323AAF;
     border: none;
+    transition: box-shadow .3s ease-out;
+}
+
+#packages .card__packages .btn__packages-started:hover {
+    box-shadow: 0px 11px 35px rgba(66, 66, 66, 0.25);
 }
 
 @media only screen and (max-width: 768px) {
