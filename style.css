@@ -10,6 +10,10 @@ body {
     height: 100em;
 }
 
+.text-muted-white {
+    color: #d3d3d3;
+}
+
 .main-background {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.65) 0%, #323AAF 69.27%);
     /* background-color: #563AD6; */
@@ -283,8 +287,22 @@ body {
     list-style: none;
 }
 
-#packages .card__packages-features .fa-times-circle {
-    color: #D7D8DB;
+#packages .card__basic .card__packages-features .fa-check-circle,
+#packages .card__ultimate .card__packages-features .fa-check-circle {
+    color: #323AAF;
+}
+
+#packages .card__professional .card__packages-features .fa-check-circle {
+    color: #FFFFFF;
+}
+
+#packages .card__basic .card__packages-features .fa-times-circle,
+#packages .card__ultimate .card__packages-features .fa-times-circle {
+    color: #a6aaf8;
+}
+
+#packages .card__professional .card__packages-features .fa-times-circle {
+    color: #d3d3d3;
 }
 
 #packages .card__basic .card__packages-title p,
