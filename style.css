@@ -417,9 +417,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    #hero .hero__excellent {
-        padding-bottom: 7em;
-    }
     #booking {
         margin-top: -80px;
     }
