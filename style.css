@@ -392,7 +392,7 @@ body {
 }
 
 #testimonials .card__testimonials-bottom {
-    max-width: 450px;
+    width: 85%;
     margin: -8em auto 0 auto !important;
     padding: 2em 2.5em 1em 2.5em;
 }
@@ -436,7 +436,14 @@ body {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
-    #testimonials .card__testimonials-bottom {
-        max-width: 350px;
+    #testimonials .card__testimonials-stars-image {
+        padding-right: 4px !important;
+    }
+    #testimonials .card__testimonials .card__testimonials-top .card__testimonials-author h3 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    #testimonials .card__testimonials .card__testimonials-top .card__testimonials-author p {
+        font-size: 10px;
     }
 }
