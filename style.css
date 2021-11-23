@@ -13,6 +13,10 @@ body {
     color: #d3d3d3;
 }
 
+.text-primary {
+    color: #323AAF !important;
+}
+
 .main-background {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.65) 0%, #323AAF 69.27%);
 }
@@ -461,9 +465,143 @@ body {
     font-weight: 500;
 }
 
+#faq .faq__title {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#faq h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
+
+#faq .faq__information p {
+    font-size: 14px;
+    color: #C4C4C4;
+    line-height: 26px;
+}
+
+#faq .accordion {
+    box-shadow: 0px 8px 30px 10px rgba(199, 199, 199, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#faq .accordion .card button {
+    position: relative;
+    display: block;
+}
+
+#faq .accordion .card button .fas {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}   
+
+#faq .card {
+    border: 0;
+}
+
+#faq .card:not(:last-child) {
+    border-bottom: 1px solid #E3E3E3;
+}
+
 #footer {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 75%);
 }
+
+#footer .footer__logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#footer .footer__logo p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+#footer .footer__menu h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#footer .footer__menu ul {
+    list-style: none;
+}
+
+#footer .footer__menu li a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer .footer__services h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#footer .footer__services ul {
+    list-style: none;
+}
+
+#footer .footer__services li a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer .footer__contact h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#footer .footer__contact ul {
+    list-style: none;
+}
+
+#footer .footer__contact li {
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#footer .footer__line {
+    width: 100%;
+    height: 1px;
+    background: #868CDF;
+}
+
+#footer .footer__copyright p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#footer .footer__social-media ul {
+    list-style: none;
+}
+
+#footer .footer__social-media li {
+    display: inline;
+}
+
+#footer .footer__social-media li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
 
 @media only screen and (max-width: 768px) {
     #booking {
@@ -477,11 +615,6 @@ body {
         margin-top: 1.4em;
         margin-left: 0 !important;
     }
-    #services .card__services {
-        border: 0;
-        background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 69.27%);
-        box-shadow: 0px 15px 40px 15px rgba(80, 80, 80, 0.1);
-    }    
     #testimonials .card__testimonials {
         padding-left: 0 !important;
         padding-right: 0 !important;
