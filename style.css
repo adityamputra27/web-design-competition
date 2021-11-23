@@ -461,6 +461,10 @@ body {
     font-weight: 500;
 }
 
+#footer {
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 75%);
+}
+
 @media only screen and (max-width: 768px) {
     #booking {
         margin-top: -80px;
@@ -473,6 +477,11 @@ body {
         margin-top: 1.4em;
         margin-left: 0 !important;
     }
+    #services .card__services {
+        border: 0;
+        background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 69.27%);
+        box-shadow: 0px 15px 40px 15px rgba(80, 80, 80, 0.1);
+    }    
     #testimonials .card__testimonials {
         padding-left: 0 !important;
         padding-right: 0 !important;
