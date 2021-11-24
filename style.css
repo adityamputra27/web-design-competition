@@ -18,7 +18,7 @@ body {
 }
 
 .main-background {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);7%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
 }
 
 .btn-sign-up {
@@ -121,7 +121,7 @@ body {
 }
 
 #booking .btn__booking-now {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);7%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
     font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -161,7 +161,7 @@ body {
 
 #services .card__services {
     border: 0;
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
     box-shadow: 0px 15px 40px 15px rgba(80, 80, 80, 0.1);
     border-radius: 20px;
 }
@@ -244,7 +244,7 @@ body {
 }
 
 #packages .card__professional {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
 }
 
 #packages .card__professional .card__packages-title {
@@ -316,7 +316,7 @@ body {
 
 #packages .card__basic .btn__packages-started,
 #packages .card__ultimate .btn__packages-started {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);2%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
     border-radius: 10px;
     padding: 0.8rem 0;
     font-size: 14px;
@@ -377,7 +377,7 @@ body {
 
 #testimonials .card__testimonials {
     border: 0;
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);;
     border-radius: 20px;
     padding-bottom: 7em;
 }
@@ -493,13 +493,21 @@ body {
 #faq .accordion .card button {
     position: relative;
     display: block;
+    font-weight: 500;
 }
 
 #faq .accordion .card button .fas {
     position: absolute;
     right: 10px;
     top: 10px;
-}   
+    font-size: 1em;
+}
+
+#faq .accordion .card .card-body {
+    font-size: 1em;
+    font-weight: normal;
+    color: #161032;
+}
 
 #faq .card {
     border: 0;
