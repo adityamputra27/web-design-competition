@@ -18,7 +18,7 @@ body {
 }
 
 .main-background {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.65) 0%, #323AAF 69.27%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);7%);
 }
 
 .btn-sign-up {
@@ -121,7 +121,7 @@ body {
 }
 
 #booking .btn__booking-now {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.75) 0%, #323AAF 73.96%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);7%);
     font-size: 14px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -161,7 +161,7 @@ body {
 
 #services .card__services {
     border: 0;
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 69.27%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);%);
     box-shadow: 0px 15px 40px 15px rgba(80, 80, 80, 0.1);
     border-radius: 20px;
 }
@@ -244,7 +244,7 @@ body {
 }
 
 #packages .card__professional {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 71.87%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);%);
 }
 
 #packages .card__professional .card__packages-title {
@@ -316,7 +316,7 @@ body {
 
 #packages .card__basic .btn__packages-started,
 #packages .card__ultimate .btn__packages-started {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.65) 0%, #323AAF 72.92%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);2%);
     border-radius: 10px;
     padding: 0.8rem 0;
     font-size: 14px;
@@ -377,7 +377,7 @@ body {
 
 #testimonials .card__testimonials {
     border: 0;
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 76.04%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);%);
     border-radius: 20px;
     padding-bottom: 7em;
 }
@@ -456,7 +456,7 @@ body {
 }
 
 #subscribes .btn__card-subscribes {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.5) 0%, #323AAF 75%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
     border-radius: 10px;
     height: 45px;
     border: 0;
@@ -510,7 +510,7 @@ body {
 }
 
 #footer {
-    background: linear-gradient(180deg, rgba(50, 58, 175, 0.7) 0%, #323AAF 75%);
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
 }
 
 #footer .footer__logo h1 {
