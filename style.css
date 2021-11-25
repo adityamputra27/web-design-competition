@@ -17,17 +17,20 @@ body {
     color: #323AAF !important;
 }
 
+.bg-primary {
+    background-color: #323AAF !important;
+    color: #FFFFFF !important;
+}
+
 .main-background {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
 }
 
 .btn-sign-up {
-    background-color: #fff;
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
     border: 0;
-    color: #000000;
     transition: all .3s ease-out;
 }
 
@@ -49,13 +52,11 @@ body {
 .navbar-brand {
     font-weight: 700;
     font-size: 30px;
-    color: #fff !important;
 }
 
 .navbar-nav .nav-link {
     font-weight: 500;
     font-size: 16px;
-    color: white !important;
 }
 
 #hero h1 {
@@ -149,6 +150,32 @@ body {
     color: #000000;
 }
 
+#services h1::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: 26px;
+    margin-left: -16px;
+}
+
+#services h1 span::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: -10px;
+    margin-left: 8%;
+}
+
 #services h1 span {
     color: #2B33A4;
 }
@@ -198,6 +225,32 @@ body {
 
 #packages h1 span {
     color: #2B33A4;
+}
+
+#packages h1::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: 26px;
+    margin-left: -16px;
+}
+
+#packages h1 span::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: -10px;
+    margin-left: 10%;
 }
 
 #packages .packages__information p {
@@ -361,8 +414,34 @@ body {
     color: #000000;
 }
 
-#testimonials h1 span {
+#testimonials h1 span:first-child {
     color: #2B33A4;
+}
+
+#testimonials h1::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: 26px;
+    margin-left: -16px;
+}
+
+#testimonials h1 span:last-child::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: -10px;
+    margin-left: 2.5%;
 }
 
 #testimonials .card {
@@ -476,6 +555,36 @@ body {
     font-weight: 500;
     font-size: 36px;
     color: #000000;
+}
+
+#faq h1 span {
+    color: #2B33A4;
+}
+
+#faq h1::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: 26px;
+    margin-left: -16px;
+}
+
+#faq h1 span:last-child::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #323AAF;
+    opacity: 0.4;
+    z-index: -1;
+    margin-top: -10px;
+    margin-left: 9.5%;
 }
 
 #faq .faq__information p {
@@ -622,6 +731,18 @@ body {
     .btn-sign-up {
         margin-top: 1.4em;
         margin-left: 0 !important;
+    }
+    #services h1 span::before {
+        display: none;
+    }
+    #packages h1 span::before {
+        display: none;
+    }
+    #testimonials h1 span:last-child::before {
+        display: none;
+    }
+    #faq h1 span:last-child::before {
+        display: none;
     }
     #testimonials .card__testimonials {
         padding-left: 0 !important;
