@@ -34,7 +34,7 @@
             </div>
         </div>
     </nav>
-    <section id="login" class="my-5 pt-3">
+    <section id="login" class="my-4 pt-3">
         <div class="container">
             <div class="text-center">
                 <p class="login__title">Auth</p>
@@ -51,52 +51,54 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-5">
-                    <div class="login__action">
-                        <div class="login__socialite">
-                            <button class="btn btn__login-google w-100 mb-3">
-                                <img src="images/google.svg" class="align-self-center mr-1" alt="">
-                                Login with Google
-                            </button>
-                            <button class="btn btn__login-facebook w-100 pl-5">
-                                <!-- <i class="fa fa-facebook align-self-center mr-1"></i> -->
-                                Login with Facebook
-                            </button>
+                    <form action="#" class="login__form">
+                        <div class="login__action">
+                            <div class="login__socialite">
+                                <button class="btn btn__login-google w-100 mb-3">
+                                    <img src="images/google.svg" class="align-self-center mr-1" alt="">
+                                    Login with Google
+                                </button>
+                                <button class="btn btn__login-facebook w-100">
+                                    <img src="images/facebook.svg" class="align-self-center" alt="">
+                                    Login with Facebook
+                                </button>
+                            </div>
+                            <div class="login__line py-4 text-center">
+                                <span></span>
+                                <span>or</span>
+                                <span></span>
+                            </div>
+                            <div class="login__form">
+                                <div class="form-group">
+                                    <div class="login__email">
+                                        <input type="text" class="form-control login__form-input px-5" placeholder="Enter your email">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="login__password">
+                                        <input type="text" class="form-control login__form-input px-5" placeholder="Enter your password">
+                                        <i class="fa fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-4">
+                                    <div class="login__remember-me">
+                                        <input type="checkbox">
+                                        Remember me
+                                    </div>
+                                    <div class="login__forgot-password">
+                                        <a href="">Forgot your password?</a>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn__login-submit bg-gradient-primary w-100" type="button">Login</button>
+                                </div>
+                                <div class="form-group text-center pt-2 login__have-account">
+                                    <p>Don't have an account? <a href="register.html">Register</a></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="login__line py-4 text-center">
-                            <span></span>
-                            <span>or</span>
-                            <span></span>
-                        </div>
-                        <div class="login__form">
-                            <div class="form-group">
-                                <div class="login__email">
-                                    <input type="text" class="form-control login__form-input px-5" placeholder="Enter your email">
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="login__password">
-                                    <input type="text" class="form-control login__form-input px-5" placeholder="Enter your password">
-                                    <i class="fa fa-lock"></i>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center pt-2 pb-4">
-                                <div class="login__remember-me">
-                                    <input type="checkbox">
-                                    Remember me
-                                </div>
-                                <div class="login__forgot-password">
-                                    <a href="">Forgot your password?</a>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn__login-submit bg-gradient-primary w-100" type="button">Login</button>
-                            </div>
-                            <div class="form-group text-center pt-2 login__have-account">
-                                <p>Don't have an account? <a href="register.html">Register</a></p>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
