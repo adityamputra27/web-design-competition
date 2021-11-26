@@ -808,6 +808,8 @@ body {
     font-size: 20px;
 
     position: absolute;
+    left: 33.5%;
+    top: 13.5px;
 }
 
 #login .login__line {
