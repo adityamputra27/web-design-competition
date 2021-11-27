@@ -9,6 +9,7 @@ $(function () {
                 scrollTop: hrefElement.offset().top - 10
             }, 2000, 'easeInOutQuint')
         }
+        $(this).parent().parent().parent().removeClass('show')
         e.preventDefault()
     })
     // end
