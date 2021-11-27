@@ -32,6 +32,38 @@ body {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
 }
 
+/* Skeleton loading */
+#hero.skeleton .skeleton-text {
+    background: #343cb5;
+    color: transparent !important;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#hero.skeleton .skeleton-text::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #343cb5 25%, #4852da 50%, #343cb5 100%);
+    animation: skeleton-gradient 1s infinite;
+    filter: blur(5px);
+}
+#hero.skeleton .hero__main-image {
+    
+}
+@keyframes skeleton-gradient {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 100%;
+    }
+}
+/* End */
+
 .btn-sign-up {
     padding: 10px 30px;
     font-size: 16px;
