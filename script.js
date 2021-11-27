@@ -19,4 +19,10 @@ $(function () {
         $(this).addClass('active')
     })
     // end
+    // collapse rotation icon
+    $('.btn-collapse').on('click', function () {
+        $(this).find('.fas').toggleClass('fa-rotate')
+        // $(this).find('.fas').addClass('fa-rotate')
+    })
+    // end
 })

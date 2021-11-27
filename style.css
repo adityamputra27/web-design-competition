@@ -657,6 +657,11 @@ body {
     right: 5px;
     top: 10px;
     font-size: 1em;
+    transition: transform .5s ease;
+}
+
+#faq .accordion .card button .fas.fa-rotate {
+    transform: rotate(180deg);
 }
 
 #faq .accordion .card .card-body {
