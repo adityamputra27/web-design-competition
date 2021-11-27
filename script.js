@@ -25,4 +25,18 @@ $(function () {
         // $(this).find('.fas').addClass('fa-rotate')
     })
     // end
+    // config skeleton
+    const $skeleton = document.querySelectorAll('.skeleton')
+    const $skeletonText = document.querySelectorAll('.skeleton-text')
+    setTimeout(() => {
+        $skeleton.forEach(skel => {
+            skel.classList.remove('skeleton')
+        })
+        $skeletonText.forEach(skelT => {
+            skelT.classList.remove('skeleton-text')
+            console.log(skelT)
+        })
+    }, 3000);
+    // })
 })
+// end

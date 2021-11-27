@@ -33,14 +33,16 @@ body {
 }
 
 /* Skeleton loading */
-#hero.skeleton .skeleton-text {
+#hero.skeleton .skeleton-text,
+#services.skeleton .skeleton-text {
     background: #343cb5;
     color: transparent !important;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
 }
-#hero.skeleton .skeleton-text::before {
+#hero.skeleton .skeleton-text::before, 
+#services.skeleton .skeleton-text::before {
     content: '';
     position: absolute;
     left: -100%;
@@ -51,8 +53,109 @@ body {
     animation: skeleton-gradient 1s infinite;
     filter: blur(5px);
 }
-#hero.skeleton .hero__main-image {
-    
+#hero.skeleton .hero__information {
+    background: #343cb5;
+}
+
+#hero.skeleton .hero__information img {
+    opacity: 0;
+}
+
+#hero.skeleton .hero__information span {
+    font-weight: 500;
+    color: transparent;
+    font-size: 14px;
+}
+#hero.skeleton .hero__main-image img {
+    opacity: 0;
+}
+#services.skeleton .card__services-icon.skeleton-text {
+    width: 30%;
+    margin-bottom: 3em;
+}
+#services.skeleton .card__services-icon.skeleton-text img {
+    opacity: 0;
+}
+#services.skeleton .card__services-title h3.skeleton-text {
+    width: 50%;
+}
+#packages.skeleton .skeleton-text,
+#testimonials.skeleton .skeleton-text,
+#about.skeleton .skeleton-text {
+    background: #e2e2e2;
+    color: transparent !important;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#packages.skeleton .skeleton-text::before,
+#testimonials.skeleton .skeleton-text::before,
+#about.skeleton .skeleton-text::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #e2e2e2 25%, #d5d5d5 50%, #e2e2e2 100%);
+    animation: skeleton-gradient 1s infinite;
+    filter: blur(5px);
+}
+#packages.skeleton .card__basic .card__packages-price.skeleton-text,
+#packages.skeleton .card__ultimate .card__packages-price.skeleton-text,
+#packages.skeleton .card__professional .card__packages-price.skeleton-text {
+    background: #e2e2e2;
+}
+#packages.skeleton .card__basic .card__packages-price.skeleton-text h4,
+#packages.skeleton .card__basic .card__packages-price.skeleton-text p,
+#packages.skeleton .card__ultimate .card__packages-price.skeleton-text h4,
+#packages.skeleton .card__ultimate .card__packages-price.skeleton-text p,
+#packages.skeleton .card__professional .card__packages-price.skeleton-text h4,
+#packages.skeleton .card__professional .card__packages-price.skeleton-text p {
+    color: transparent;
+    line-height: 5px;
+}
+#packages.skeleton .card__basic .card__packages-features ul li.skeleton-text i,
+#packages.skeleton .card__basic .card__packages-started.skeleton-text a,
+#packages.skeleton .card__ultimate .card__packages-features ul li.skeleton-text i,
+#packages.skeleton .card__ultimate .card__packages-started.skeleton-text a,
+#packages.skeleton .card__professional .card__packages-features ul li.skeleton-text i,
+#packages.skeleton .card__professional .card__packages-started.skeleton-text a,
+#testimonials.skeleton .card__testimonials-author-image img,
+#testimonials.skeleton .card__testimonials-stars.skeleton-text .card__testimonials-stars-image img {
+    opacity: 0;
+}
+#testimonials.skeleton .card__testimonials-author-image {
+    background-color: #e2e2e2;
+    border-radius: 100%;
+}
+#testimonials.skeleton .card__testimonials-stars.skeleton-text {
+    height: 50%;
+    margin-top: 1.5em;
+}
+#about.skeleton .about__title.skeleton-text {
+    color: transparent;
+    width: 100px;
+    margin: 0 auto 1em auto;
+}
+
+#about.skeleton h1.skeleton-text {
+    color: transparent;
+    width: 400px;
+    margin: 0 auto 0.2em auto;
+}
+
+#about.skeleton h1.skeleton-text span {
+    color: transparent;
+}
+
+#about.skeleton h1.skeleton-text::before {
+    display: none;
+}
+#about.skeleton .about__image.skeleton-text img,
+#about.skeleton .about__description p.skeleton-text a,
+#about.skeleton .about__social-media ul li.skeleton-text i {
+    opacity: 0;
 }
 @keyframes skeleton-gradient {
     from {
