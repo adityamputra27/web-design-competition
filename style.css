@@ -1323,6 +1323,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     width: 100%;
+    border: none;
 }
 @media (max-width: 575.98px) {
     #checkout .checkout__card-hide {
