@@ -38,5 +38,40 @@ $(function () {
         })
     }, 3000);
     // })
+    // checkout
+    $(".checkout__step-frequency").on('click', function () {
+        $('.checkout__step-frequency').removeClass('active')
+        $(this).addClass('active')
+        let h3 = $(this).find('h3').text()
+        $('#chooseFrequency').text(h3)
+    })
+    $('.checkout__payment-credit-card').hide()
+    $('.checkout__payment-bank-transfer').hide()
+    $('.checkout__payment-ovo').hide()
+    $(".checkout__payment-button").on('click', function () {
+        $('.checkout__payment-button').removeClass('active')
+        $(this).addClass('active')
+        let findPayment = $(this).find('input').attr('id')
+        if (findPayment == "credit_card") {
+            $('.checkout__payment-credit-card').show()
+            $('.checkout__payment-bank-transfer').hide()
+            $('.checkout__payment-ovo').hide()
+        }
+        else if (findPayment == "bank_transfer") {
+            $('.checkout__payment-credit-card').hide()
+            $('.checkout__payment-bank-transfer').show()
+            $('.checkout__payment-ovo').hide()
+        }
+        else if (findPayment == "ovo") {
+            $('.checkout__payment-credit-card').hide()
+            $('.checkout__payment-bank-transfer').hide()
+            $('.checkout__payment-ovo').show()
+        } else {
+            $('.checkout__payment-credit-card').hide()
+            $('.checkout__payment-bank-transfer').hide()
+            $('.checkout__payment-ovo').hide()
+        }
+    })
+    // end
 })
 // end
