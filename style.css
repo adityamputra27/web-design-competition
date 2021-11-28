@@ -26,6 +26,7 @@ body {
 .bg-gradient-primary {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
     color: #FFFFFF !important;
+    border: 0;
 }
 
 .main-background {
@@ -1323,7 +1324,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     width: 100%;
-    border: none;
 }
 @media (max-width: 575.98px) {
     #checkout .checkout__card-hide {
@@ -1361,6 +1361,34 @@ body {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+#checkout__success .checkout__success-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#checkout__success .checkout__success-icon .fa {
+    font-size: 5em;
+    color: #FFFFFF;
+}
+#checkout__success .checkout__success-information h3 {
+    font-weight: 500;
+    color: #000000;
+    margin: 1em 0 0.2em 0;
+}
+#checkout__success .checkout__success-information p {
+    font-size: 14px;
+    color: #666666;
+}
+#checkout__success .btn__checkout-success {
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 35px;
 }
 /* End */
 
