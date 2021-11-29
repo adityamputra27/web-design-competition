@@ -1,0 +1,13 @@
+DEMO : https://cleansy-web.netlify.app/
+REPOSITORY PROJECT : https://github.com/adityamputra27/web-design-competition
+
+DETAIL HALAMAN
+
+Terdapat 7 halaman
+- index.html
+- about.html
+- checkout-auth.html
+- login.html
+- register.html
+- success.html, digunakan ketika user selesai booking cleaning service
+- booking.html, digunakan ketika user sedang melakukan proses booking cleaning service

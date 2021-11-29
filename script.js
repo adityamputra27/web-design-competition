@@ -105,5 +105,10 @@ $(function () {
         }
     })
     // end
+    // btn complete
+    $(".btn__checkout-complete").on('click', function (e) {
+        window.location.href = 'success.html'
+    })
+    // end
 })
 // end
