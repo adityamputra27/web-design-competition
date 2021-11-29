@@ -28,15 +28,18 @@ $(function () {
     // config skeleton
     const $skeleton = document.querySelectorAll('.skeleton')
     const $skeletonText = document.querySelectorAll('.skeleton-text')
-    setTimeout(() => {
-        $skeleton.forEach(skel => {
-            skel.classList.remove('skeleton')
-        })
-        $skeletonText.forEach(skelT => {
-            skelT.classList.remove('skeleton-text')
-            console.log(skelT)
-        })
-    }, 3000);
+    function setTimeoutSkeleton() {
+        setTimeout(() => {
+            $skeleton.forEach(skel => {
+                skel.classList.remove('skeleton')
+            })
+            $skeletonText.forEach(skelT => {
+                skelT.classList.remove('skeleton-text')
+                console.log(skelT)
+            })
+        }, 3000);
+    }
+    setTimeoutSkeleton()
     // })
     // checkout
     $(".checkout__step-frequency").on('click', function () {
@@ -56,16 +59,45 @@ $(function () {
             $('.checkout__payment-credit-card').show()
             $('.checkout__payment-bank-transfer').hide()
             $('.checkout__payment-ovo').hide()
+
+            $('.checkout__payment-credit-card').addClass('skeleton')
+            $('.checkout__payment-credit-card').find('.form-group').addClass('skeleton-text')
+            setTimeout(() => {
+                $('.checkout__payment-credit-card').removeClass('skeleton')
+                $('.checkout__payment-credit-card').find('.form-group').removeClass('skeleton-text')
+            }, 2500)
         }
         else if (findPayment == "bank_transfer") {
             $('.checkout__payment-credit-card').hide()
             $('.checkout__payment-bank-transfer').show()
             $('.checkout__payment-ovo').hide()
+
+            $('.checkout__payment-bank-transfer').addClass('skeleton')
+            $('.checkout__payment-bank-transfer').find('img').addClass('skeleton-text')
+            $('.checkout__payment-bank-transfer').find('h5').addClass('skeleton-text')
+            $('.checkout__payment-bank-transfer').find('p').addClass('skeleton-text')
+            setTimeout(() => {
+                $('.checkout__payment-bank-transfer').removeClass('skeleton')
+                $('.checkout__payment-bank-transfer').find('img').removeClass('skeleton-text')
+                $('.checkout__payment-bank-transfer').find('h5').removeClass('skeleton-text')
+                $('.checkout__payment-bank-transfer').find('p').removeClass('skeleton-text')
+            }, 2500)
         }
         else if (findPayment == "ovo") {
             $('.checkout__payment-credit-card').hide()
             $('.checkout__payment-bank-transfer').hide()
             $('.checkout__payment-ovo').show()
+
+            $('.checkout__payment-ovo').addClass('skeleton')
+            $('.checkout__payment-ovo').find('img').addClass('skeleton-text')
+            $('.checkout__payment-ovo').find('h5').addClass('skeleton-text')
+            $('.checkout__payment-ovo').find('p').addClass('skeleton-text')
+            setTimeout(() => {
+                $('.checkout__payment-ovo').removeClass('skeleton')
+                $('.checkout__payment-ovo').find('img').removeClass('skeleton-text')
+                $('.checkout__payment-ovo').find('h5').removeClass('skeleton-text')
+                $('.checkout__payment-ovo').find('p').removeClass('skeleton-text')
+            }, 2500)
         } else {
             $('.checkout__payment-credit-card').hide()
             $('.checkout__payment-bank-transfer').hide()
