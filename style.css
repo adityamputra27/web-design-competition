@@ -33,6 +33,12 @@ body {
     background: linear-gradient(180deg, rgba(50, 58, 175, 0.70) 0%, #323AAF 69.27%);
 }
 
+input[type="date"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Skeleton loading */
 #hero.skeleton .skeleton-text,
 #services.skeleton .skeleton-text {
